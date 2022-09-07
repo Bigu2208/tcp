@@ -29,8 +29,6 @@ else
 	echo "Este script irá alterar algumas configurações de rede"
 	echo "do sistema para reduzir a latência e melhorar a velocidade."
 	echo ""
-	read -p "Continuar com a instalação? [s/n]: " -e -i n resposta
-	if [[ "$resposta" = 's' ]]; then
 	echo ""
 	echo "Modificando as seguintes configurações:"
 	echo " " >> /etc/sysctl.conf
