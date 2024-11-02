@@ -62,7 +62,6 @@ function handleConversion() {
     }
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-    console.log('DOM carregado - inicializando rastreamento de conversão');
-    handleConversion();
-});
+
+handleConversion();
+
